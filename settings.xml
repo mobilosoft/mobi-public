@@ -1,0 +1,14 @@
+<settings>
+        <servers>
+                <server>
+                        <id>mobilosoft-release</id>
+                        <username>${env.MAVEN_KEY}</username>
+                        <password>${env.MAVEN_SECRET}</password>
+                </server>
+                <server>
+                        <id>mobilosoft-snapshot</id>
+                        <username>${env.MAVEN_KEY}</username>
+                        <password>${env.MAVEN_SECRET}</password>
+                </server>
+         </servers>
+</settings>
