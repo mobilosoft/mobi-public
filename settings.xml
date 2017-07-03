@@ -10,5 +10,15 @@
                         <username>${env.MAVEN_KEY}</username>
                         <password>${env.MAVEN_SECRET}</password>
                 </server>
+                <server>
+                        <id>aws-release</id>
+                        <username>${env.MAVEN_KEY}</username>
+                        <password>${env.MAVEN_SECRET}</password>
+                </server>
+                <server>
+                        <id>aws-snapshot</id>
+                        <username>${env.MAVEN_KEY}</username>
+                        <password>${env.MAVEN_SECRET}</password>
+                </server>
          </servers>
 </settings>
